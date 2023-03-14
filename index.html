@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Filmes HD</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1 id="palavra">Filmes HD</h1>
+      </div>
+      <nav id="navbar">
+        <ul>
+          <li class="nav-link" id="home"><a href="#filmes">Home</a></li>
+          <li class="nav-link" id="series"><a href="#series">Séries</a></li>
+          <li class="nav-link" id="filmes"><a href="#filmes">Filmes</a></li>
+          <li class="nav-link" id="novidades"><a href="#novidades">Novidades</a></li>
+          <li class="nav-link" id="minhalista"><a href="#minhalista">Minha Lista</a></li>
+        </ul>
+      </nav>
+      <div class="search">
+        <form class="search-form" action="#" method="get">
+        <input class="search-input" type="text" name="search" placeholder="Pesquisar Filmes" />
+        <button class="search-btn" type="submit" >Pesquisar</button>
+      </form>
+    </div>
+
+    </header>
+    <main>
+      <section class="movie-grid">
+        <div class="movie" id="filmes">
+          <img src="./Assets/gato de botas.jpg" />
+          <h3>Gato de Botas 2: O Último Pedido</h3>
+        </div>
+        <div class="movie">
+          <img src="./Assets/homem formiga.jpg" />
+          <h3>Homem-Formiga e a Vespa: Quantumania</h3>
+        </div>
+        <div class="movie">
+          <img src="./Assets/m3gan.jpg" />
+          <h3>M3GAN</h3>
+        </div>
+        <div class="movie">
+          <img src="./Assets/o impossivel.jpg" />
+          <h3>O Impossível</h3>
+        </div>
+        <div class="movie">
+          <img src="./Assets/invocacao do mal.jpg" />
+          <h3>Invocação do Mal 3: A Ordem do Demônio</h3>
+        </div>
+        <div class="movie">
+          <img src="./Assets/your name.jpg" />
+          <h3>Your Name - Kimi no na wa</h3>
+        </div>
+      </section>
+     
+      <section class="novidades">
+        <h2>Novidades</h2>
+        <div class="filmes-container">
+          <div class="filme" id="novidades">
+            <img src="./Assets/velozos e furiosos.jpg" alt="Velozes & Furiosos 10">
+            <h3>Velozes & Furiosos 10</h3>
+            <p>Data de lançamento: 19 de maio de 2023</p>
+            <p>Gênero: Ação, Aventura, Ficção científica</p>
+          </div>
+          <div class="filme">
+            <img src="./Assets/the last of us.jpg" alt="The Last of Us">
+            <h3>The Last of Us</h3>
+            <p>Data de lançamento: 15 de janeiro de 2023</p>
+            <p>Gênero: Ficção pós-apocalíptica, Suspense, Drama</p>
+          </div>
+          <!-- Adicione mais filmes aqui -->
+        </div>
+      </section>
+      
+    </main>
+    <footer>
+      <p>&copy; 2023 Filmes</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
